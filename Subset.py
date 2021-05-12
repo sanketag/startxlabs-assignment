@@ -8,6 +8,8 @@ def fun1(words):
 
 print(fun1(['Hello','he']))
 
+
+
 """#2 Function with all function method"""
 
 def fun2(words):
@@ -17,6 +19,8 @@ def fun2(words):
     else:return False
 
 print(fun2(['Alien','line']))
+
+
 
 """#3 Function with looping method"""
 
@@ -30,6 +34,8 @@ def fun3(words):
 
 print(fun3(['ReQuIrEd','Rest']))
 
+
+
 """#4 Function with subset method"""
 
 def fun4(words):
@@ -39,6 +45,7 @@ def fun4(words):
     else:return False
 
 print(fun4(['Yes','No']))
+
 
 
 """ left is set of first string with unique alphabets """
