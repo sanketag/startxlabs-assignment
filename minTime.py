@@ -29,6 +29,8 @@ def get_checkout_time(cust,c_r):
     """Assigning a customer to every cash register along with the flag of remaining customers"""
     if c_r>=len(cust):
         return fun(cust,0)
+    elif c_r==0:
+        return 0
     else:
         return fun(cust[:c_r],1)
 
