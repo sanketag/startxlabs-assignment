@@ -40,3 +40,6 @@ def fun4(words):
 
 print(fun4(['Yes','No']))
 
+
+""" left is set of first string with unique alphabets """
+""" right is set of second string with unique alphabets """

@@ -34,3 +34,16 @@ def get_checkout_time(cust,c_r):
 
 print(get_checkout_time([5, 1, 3], 1))
 print(get_checkout_time([10, 3, 4, 2], 2))
+
+
+
+""" 
+    cust  : original list of customers
+    c_r   : number of open cash registers
+    rem   : pointer according to number of open cash registers
+    e     : number of customers equivalent to number of open cash registers
+    f     : flag for availability of more customers
+    zero  : number of 0 left after completing of customer time with least time requirement in the line
+    temp  : least time required by customer in line
+    temp1 : new line of available customers and customers with remaining time
+"""
