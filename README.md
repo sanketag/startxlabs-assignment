@@ -9,7 +9,7 @@ get_checkout_time([5, 1, 3], 1) should return 9
 
 get_checkout_time([10, 3, 4, 2], 2) should return 10 because while the first register is busy serving customer[0] the second register can serve all remaining customers.
 
-### [Solution]():
+### [Solution](https://github.com/sanketag/startxlabs-assignment/blob/main/minTime.py):
 
 * Recursive function which require list of customers for every open cash register with a flag for availability of more customers.
 * Stepping each customer with least time requirement in the line.
