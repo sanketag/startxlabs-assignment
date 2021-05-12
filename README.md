@@ -35,7 +35,7 @@ should return false because the string "hello" does not contain a "y".
 ["Alien", "line"]
 should return true because all of the letters in "line" are present in "Alien".
 
-### [Solution]():
+### [Solution](https://github.com/sanketag/startxlabs-assignment/blob/main/Subset.py):
 
 1. Function contains logic of set difference method generally used in mathematics set.
 2. Function contains all method that iterate the condiition for all elements.
